@@ -15,7 +15,7 @@
   text-decoration: underline solid black;
 }
 
-/* Notification block */
+/* Notifications */
 .notification {
   display: flex;
   align-items: center;
@@ -34,15 +34,17 @@
   border: 1px solid black;
 }
 
-/* Text */
+/* Paragraph */
 .notification p {
   margin: 0;
 }
 
+/* Bold user */
 .user {
   font-weight: bold;
 }
 
+/* Time span */
 .time {
   display: block;
   font-size: 12px;
