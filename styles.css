@@ -13,18 +13,17 @@
   margin-bottom: 10px;
 }
 
-/* Notification block */
+/* Notification box */
 .notification {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  background: white;
-  padding: 10px;
+  align-items: flex-start;
+  background-color: white;
   border-radius: 10px;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
-/* Image */
+/* Image style */
 .notification img {
   width: 100px;
   height: 100px;
@@ -32,29 +31,36 @@
   border: 1px solid black;
 }
 
-/* Text */
+/* Paragraph next to image */
 .notification p {
   margin: 0;
+  margin-left: 10px;
+  flex: 1;
 }
 
-.user {
+/* Bold user span */
+.notification p .user {
   font-weight: bold;
 }
 
-.time {
+/* Time span */
+.notification .time {
   display: block;
+  text-align: right;
   font-size: 12px;
   font-style: italic;
-  text-align: right;
+  font-weight: normal;
+  margin-top: 5px;
 }
 
-/* Button */
+/* Button style */
 button {
   font-size: 16px;
   border-radius: 10px;
   padding: 10px;
+  margin-top: 10px;
   background-color: #02203c;
   color: white;
   border: none;
-  margin-top: 10px;
+  cursor: pointer;
 }
